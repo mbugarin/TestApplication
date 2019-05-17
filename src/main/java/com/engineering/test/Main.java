@@ -10,8 +10,12 @@ public class Main {
         
         int numeroUno = 22;
         int numeroDue = 55;
+
+        // Using very nice String.format method
+        // P.S. Adding these two comments to deal with conflicts in gitkraken
         // Some comment from git hub editor
         System.out.println(String.format("Sum of numbers %d and %d is %d", numeroUno, numeroDue, sumNumbers(numeroUno, numeroDue)));
+
     }
 
     private static long sumNumbers(int num1, int num2) {
