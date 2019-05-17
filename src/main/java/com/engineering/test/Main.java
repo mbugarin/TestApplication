@@ -10,7 +10,9 @@ public class Main {
     }
 
     private static void printEachLetter(String value) {
-        value.chars().forEach(i -> System.out.println((char)i));
+        for (char c : value.toCharArray()) {
+            System.out.println(c);
+        }
         System.out.println("\n");
     }
 }
