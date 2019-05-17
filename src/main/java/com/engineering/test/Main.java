@@ -4,8 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
         String name = "Milos";
-        name.chars().forEach(i -> System.out.println((char)i));
-
+        printEachLetter(name);
+        name = "Janko";
+        printEachLetter(name);
+        
         int numeroUno = 22;
         int numeroDue = 55;
 
@@ -14,5 +16,12 @@ public class Main {
 
     private static long sumNumbers(int num1, int num2) {
         return num1 + num2;
+    }
+
+    private static void printEachLetter(String value) {
+        for (char c : value.toCharArray()) {
+            System.out.println(c);
+        }
+        System.out.println("\n");
     }
 }
