@@ -7,7 +7,7 @@
     <groupId>com.engineering.test</groupId>
     <artifactId>Test-Application</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+	<!-- Some comment -->
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>

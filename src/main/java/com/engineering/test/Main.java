@@ -19,6 +19,7 @@ public class Main {
     }
 
     private static long sumNumbers(int num1, int num2) {
+		num1 ++;
         return num1 + num2;
     }
 
